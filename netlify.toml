@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/panel/"
+  status = 302
+
+[[redirects]]
+  from = "/Panel"
+  to = "/panel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Panel/"
+  to = "/panel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Panel/*"
+  to = "/panel/:splat"
+  status = 301
+  force = true
