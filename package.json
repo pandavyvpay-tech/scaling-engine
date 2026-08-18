@@ -10,9 +10,9 @@
     "send-nft": "node scripts/sendNft.js"
   },
   "dependencies": {
-    "@ton/core": "^0.59.0",
+    "@ton/core": "^0.62.0",
     "@ton/crypto": "^3.3.0",
     "@ton/ton": "^15.1.0",
-    "@ton-community/blueprint": "^0.31.0"
+    "@ton/blueprint": "^0.31.0"
   }
 }
